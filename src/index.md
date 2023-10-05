@@ -1,6 +1,6 @@
 ---
 layout: base.njk
-title: Mis peliculas,series y videojuegos favoritas. 
+title: Mis peliculas,series y videojuegos que mas juego. 
 ---
 
 # {{ title }}
