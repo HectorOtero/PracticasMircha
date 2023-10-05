@@ -1,24 +1,21 @@
 ---
 layout: base.njk
-title: Hola Mundo 11ty
+title: Mis peliculas,series y videojuegos favoritas. 
 ---
 
 # {{ title }}
 
-- Primavera
-- Verano
-- Otoño
-- Invierno
+Soy Hector Otero Caballero y aqui expondre mis series y peliculas favoritas. 
 
-[Acerca]({{ '/acerca' | url }})
+[Acerca de mi]({{ '/acerca' | url }})
 
 ## Artículos de mi Blog
 
-### Categoría Libros
+### Categoría Peliculas
 
-{% for libro in collections.libros %}
+{% for pelicula in collections.pelicula %}
 
-- [{{libro.data.title}}]({{ libro.url | url }})
+- [{{pelicula.data.title}}]({{ pelicula.url | url }})
 
 {% endfor %}
 
@@ -27,5 +24,13 @@ title: Hola Mundo 11ty
 {% for serie in collections.series %}
 
 - [{{serie.data.title}}]({{ serie.url | url }})
+
+{% endfor %}
+
+### Categoria Videojuegos
+
+{% for videojuego in collections.videojuego %}
+
+- [{{videojuego.data.title}}]({{ videojuego.url | url }})
 
 {% endfor %}

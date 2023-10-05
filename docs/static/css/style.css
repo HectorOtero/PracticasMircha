@@ -1,13 +1,30 @@
 body {
-  color: #eee;
-  background-color: #222;
-  font-family: sans-serif;
+  color:black;
+  background-color:khaki;
+  font-family:cursive;
 }
 
 a {
-  color: aqua;
+  color:#FC86D7;
 }
 
 a:hover {
   opacity: 0.8;
+}
+
+img {
+  max-width: 500px;
+  max-height: 500px; 
+}
+
+h3{
+  color: crimson;
+}
+
+h1{
+  color:purple
+}
+
+h2{
+  color:steelblue;
 }

@@ -1,12 +1,32 @@
 ---
 layout: base.njk
-title: Sección Acerca
+title: Acerca de mi
 ---
 
 # {{ title }}
 
-Lorem ipsum dolor sit amet consectetur adipisicing elit. Eaque doloremque rem similique asperiores voluptas inventore vero illum eveniet sunt, aut velit incidunt laborum modi atque excepturi praesentium ut veritatis. Facilis.
+Soy un estudiante de Desarrollo Interactivo de Software y Videojuegos. Vivo en la Cd. de Mexico y estoy desarrollandome en areas como: 
 
-![ser Feliz]({{ '/static/img/ser-feliz.jpg' | url }})
+- 🟪 C#.
+- ⬛ Desarrollo en Unity.
+- ⬜ JS.
+- 🟥 Diseño de niveles.
+- 🟨 Diseño de personajes.
+- 🟦 Diseño de mecánicas.
+- 🟫 Photoshop.
+- 🟩 UX y UI.
+
+
+<h3> Mis Proyectos </h3>
+
+- Little Bear´s Kindergarten.
+- Escape the Dungeon.
+- Penguin Life
+- Tienda Digital en JS
+- Contra en 3D
+- Knight Nightmares
+
+
+![YO]({{ '/static/img/Yo.jpg' | url }})
 
 [Home]({{ '/' | url }})
